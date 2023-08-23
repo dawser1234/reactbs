@@ -1,18 +1,22 @@
 import React from 'react'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import arr from './product';
 
 function Carde3() {
+  var name="x"
+  var firstname="aa"
   return (
     <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="https://www.generation4x4mag.fr/wp-content/uploads/2020/06/0122.jpg" />
-      <Card.Body>
-        <Card.Title>G class 6*6</Card.Title>
+    {firstname ? <Card.Img variant="top" src={arr[2].img} /> :null}
+       <Card.Body>
+        <Card.Title>{name?"hello":"hello there"}{arr[2].name}</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+        {arr[2].price}
         </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <Card.Text>
+        {arr[2].description}
+        </Card.Text>
       </Card.Body>
     </Card>
   )

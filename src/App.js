@@ -5,6 +5,8 @@ import Nave from './navbar';
 import Carde from './card';
 import Carde2 from './Carde2';
 import Carde3 from './Card3';
+import Carde4 from './card4';
+
 
 
 function App() {
@@ -15,6 +17,7 @@ function App() {
     <Carde/>
     <Carde2/>
     <Carde3/>
+    <Carde4/>
     </div>
    
     </div>
