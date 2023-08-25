@@ -2,7 +2,7 @@ import React from 'react'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 //import photo from './img.jpg';
-import arr from './product';
+import arr from './Joueur';
 
 function Carde4() {
   return (

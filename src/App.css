@@ -36,13 +36,13 @@
     transform: rotate(360deg);
   }
 }
-.cart{
+.cart2{
   display: flex;
   margin-left: 50px;
   margin-top: 50px;
   gap: 30PX;
   justify-content: center;
 }
-.cart Img{
+.cart2 Img{
   height: 300px;
 }

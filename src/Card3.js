@@ -1,7 +1,7 @@
 import React from 'react'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import arr from './product';
+import arr from './Joueur';
 
 function Carde3() {
   var name="x"
